@@ -1,10 +1,10 @@
 import React from "react";
 import './globals.css'
 import Navbar from "@/app/(shared)/Navbar";
-import { Open_Sans} from "next/dist/compiled/@next/font/dist/google";
+import { Open_Sans} from "next/font/google";
 
 const openSans = Open_Sans({
-  subsets: ["latin"],
+    subsets: ['latin'],
 })
 
 export const metadata = {
