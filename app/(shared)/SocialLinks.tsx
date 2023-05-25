@@ -7,12 +7,16 @@ import Twitter from "/public/assets/social_twitter.png";
  import Discord from "/public/assets/social_discord.png";
  import Image from "next/image";
 
-const SocialLinks = () => {
+ type props = {
+     isDark?: boolean;
+ }
+
+const SocialLinks = ({ isDark }: props) => {
     return (
         <div className="flex justify-between items-center gap-7">
             <a href="https://twitter.com" target="_blank" rel="noreferrer">
                 <Image
-                    className={`${isDark ? "brightness-0" : ""} "hover:opacity-50"}
+                    className={`${isDark ? "brightness-0" : ""} "hover:opacity-50"`}
                     alt="twitter"
                     src={Twitter}
                     width={20}
