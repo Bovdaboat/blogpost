@@ -2,6 +2,7 @@ import React from "react";
 import './globals.css'
 import Navbar from "@/app/(shared)/Navbar";
 import { Open_Sans} from "next/font/google";
+import Footer from "@/app/(shared)/Footer";
 
 const openSans = Open_Sans({
     subsets: ['latin'],
