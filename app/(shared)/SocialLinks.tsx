@@ -63,4 +63,4 @@ const SocialLinks = ({ isDark = false }: props) => {
     )
 }
 
-export default SocialLinks
+export default SocialLinks;
