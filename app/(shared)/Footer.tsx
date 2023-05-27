@@ -13,6 +13,16 @@ const Footer = () => {
                         <p className="my-5">
                             Like the great Ted from bob burger ones said today is tomorrow yesterday
                         </p>
+                    <p>©Copyright all reserved to BovDaBoat</p>
+                </div>
+                <div className="mt-16 basis-1/4 sm:mt-0">
+                    <h4 className="font-bold">
+                        Links
+                    </h4>
+                    <p className="my-5">
+                        Bovdaboat.com
+                    </p>
+                    <p>©Copyright all reserved to BovDaBoat</p>
                 </div>
             </div>
         </footer>
