@@ -10,7 +10,9 @@ const Footer = () => {
                     <h4 className="font-bold">
                         Blog of Tomorrow
                     </h4>
-
+                        <p className="my-5">
+                            Like the great Ted from bob burger ones said today is tomorrow yesterday
+                        </p>
                 </div>
             </div>
         </footer>
