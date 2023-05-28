@@ -13,6 +13,7 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
             <div className="z-0 relative-ful h-full bg-wh-500">
                 image
             </div>
+            <div className="absolute z-1 top-0 left-0 w-full h-full bg-gradient-gradual"></div>
         </Link>
     )
 }
