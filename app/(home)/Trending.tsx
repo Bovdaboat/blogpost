@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "next/link"
 
+
 type TrendingCardProps = {
     className?: string
 }
@@ -11,7 +12,7 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
         href="/"
         >
             <div className="z-0 relative-ful h-full bg-wh-500">
-                image
+                image this is going be the change that is going eather fix or break this
             </div>
             <div className="absolute z-1 top-0 left-0 w-full h-full bg-gradient-gradual"></div>
         </Link>
