@@ -15,6 +15,9 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
                 image this is going be the change that is going eather fix or break this
             </div>
             <div className="absolute z-1 top-0 left-0 w-full h-full bg-gradient-gradual"></div>
+            <div className="absolute z-2 bottom-0 left-0 p-3">
+                <h4 className="inline-block px-5 py-1 font-semibold bg-accent-orange text-wh-900"></h4>
+            </div>
         </Link>
     )
 }
