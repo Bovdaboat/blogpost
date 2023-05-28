@@ -1,7 +1,26 @@
 import React from "react"
+import Link from "next/link"
+
+type TrendingCardProps = {
+    className?: string
+}
+
+const TrendingCard = ({ className }: TrendingCardProps) => {
+    return (
+        <Link className={`${className} sm:mt-0 sm:h-auto relative mt-7 block w-full h-96 hover:opacity-70`}
+        href="/"
+        >
+            <div className="z-0 relative-ful h-full">
+
+            </div>
+        </Link>
+    )
+}
+
+type Props = {};
 
 
-const Trending = () => {
+const Trending = (Props) => {
     return (
         <section className='pt-3 pb-10'>
             <div className="flex items-center gap-3">
