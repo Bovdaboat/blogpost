@@ -10,8 +10,8 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
         <Link className={`${className} sm:mt-0 sm:h-auto relative mt-7 block w-full h-96 hover:opacity-70`}
         href="/"
         >
-            <div className="z-0 relative-ful h-full">
-
+            <div className="z-0 relative-ful h-full bg-wh-500">
+                image
             </div>
         </Link>
     )
@@ -20,7 +20,7 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
 type Props = {};
 
 
-const Trending = (Props) => {
+const Trending = (Props:string) => {
     return (
         <section className='pt-3 pb-10'>
             <div className="flex items-center gap-3">
