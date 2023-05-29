@@ -16,7 +16,10 @@ const TrendingCard = ({ className }: TrendingCardProps) => {
             </div>
             <div className="absolute z-1 top-0 left-0 w-full h-full bg-gradient-gradual"></div>
             <div className="absolute z-2 bottom-0 left-0 p-3">
-                <h4 className="inline-block px-5 py-1 font-semibold bg-accent-orange text-wh-900"></h4>
+                <h4 className="inline-block px-5 py-1 font-semibold bg-accent-orange text-wh-900">
+                    category
+                </h4>
+                <div className="text-wh-100 mt-2">Post title</div>
             </div>
         </Link>
     )
