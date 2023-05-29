@@ -1,8 +1,10 @@
 import React from "react";
 
-const Tech = () => {
+
+type Props ={}
+const Tech = (props: Props) => {
     return (
-        <div>Tech</div>
+        <section>Tech</section>
     )
 }
 
