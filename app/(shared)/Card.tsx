@@ -11,7 +11,7 @@ type Props = {
 const Card = ({ className, imageHeight, isLongForm = false, isSmallCard = false }: Props) => {
     return (
         <div className={className}>
-            <Link className="basis-full hover:opacity-70 href">
+            <Link className="basis-full hover:opacity-70 href" >
                 <div className="{`relative w-auto mb-3 ${imageHeight}`}">
                     image
                 </div>
