@@ -27,6 +27,9 @@ const Card = ({ className, imageHeight, isLongForm = false, isSmallCard = false 
                 <h5 className="font-semibold text-sm">Author</h5>
                 <h6 className="text-wh-300 text-xs">date</h6>
             </div>
+            <p className={`text-wh-500 ${isLongForm ? "line-clamp-5" : "line-clamp-3"}`}>
+                snippets
+            </p>
         </div>
     )
 }
