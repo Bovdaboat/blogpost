@@ -21,7 +21,7 @@ const Card = ({ className, imageHeight, isLongForm = false, isSmallCard = false 
                     <h4 className={`font-bold hover:accent-green 
                     ${isSmallCard ? "text-base" : "text-lg"}
                         ${isSmallCard} ? "line-clamp-2" : ""`}
-                    >Titile</h4>
+                    >Title</h4>
                 </Link>
                 <div className={`${isSmallCard ? "my-2" : "flex my-3"} gap-3`}></div>
                 <h5 className="font-semibold text-sm">Author</h5>

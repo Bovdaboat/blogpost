@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "@/app/(shared)/Card";
 
 
 type Props ={}
@@ -12,10 +13,18 @@ const Tech = (props: Props) => {
                 </h4>
                 <p className="font-bold text-2xl">Latest new Technology's</p>
                     <div className="sm:grid grid-cols-2 grid-rows-3 gap-x-8 gap-y-8 my-5">
-                        <div className="bg-wh-500 col-span-1 row-span-3"></div>
-                        <div className="bg-wh-500 col-span-1 row-span-1"></div>
-                        <div className="bg-wh-500 col-span-1 row-span-1"></div>
-                        <div className="bg-wh-500 col-span-1 row-span-1"></div>
+                        <Card className="bg-wh-500 col-span-1 row-span-3"
+                              imageHeight="h-96"
+                              isLongForm />
+                        <Card className="bg-wh-500 col-span-1 row-span-1 mt-10 sm:mt-0 flex justify-between gap-3"
+                              imageHeight="h-48"
+                              isLongForm />
+                        <Card className="bg-wh-500 col-span-1 row-span-1 mt-10 sm:mt-0 flex justify-between gap-3"
+                              imageHeight="h-48"
+                              isLongForm />
+                        <Card className="bg-wh-500 col-span-1 row-span-1 mt-10 sm:mt-0 flex justify-between gap-3"
+                              imageHeight="h-48"
+                              isLongForm />
                     </div>
             </div>
         </section>
