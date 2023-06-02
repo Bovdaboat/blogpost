@@ -22,7 +22,7 @@ const Sidebar = () => {
                 about the blog
             </h4>
             <div className="bg-wh-900">
-                advert image
+                profile image
             </div>
         </section>
     )
